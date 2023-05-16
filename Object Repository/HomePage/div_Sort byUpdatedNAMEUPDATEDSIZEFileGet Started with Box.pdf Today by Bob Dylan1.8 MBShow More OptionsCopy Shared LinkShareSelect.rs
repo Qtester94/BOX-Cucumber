@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sort byUpdatedNAMEUPDATEDSIZEFileGet Started with Box.pdf Today by Bob Dylan1.8 MBShow More OptionsCopy Shared LinkShareSelect</name>
+   <tag></tag>
+   <elementGuidId>8847a849-8139-4e81-bc5f-b54541a420cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[5]/span/div/div[2]/main/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ItemListLayout-mainContent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e9b84d50-1eff-42f5-b230-d4872ac7535e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ItemListLayout-mainContent</value>
+      <webElementGuid>fecf1f56-a2bf-4fc3-98ec-932c44738244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sort byUpdatedNAMEUPDATEDSIZEFileGet Started with Box.pdf Today by Bob Dylan1.8 MBShow More OptionsCopy Shared LinkShareSelect</value>
+      <webElementGuid>24b856ec-1960-4e54-afcd-e0926b814239</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;in-app-messenger-provider&quot;]/span[@class=&quot;hotkey-layer&quot;]/div[@class=&quot;end-user has-header has-left-nav has-enhanced-styles has-no-page-content-level-left-padding has-no-page-content-level-right-padding has-sidebar&quot;]/div[@class=&quot;main-content-container&quot;]/main[1]/div[@class=&quot;transition-manager&quot;]/div[@class=&quot;page-content files-page&quot;]/div[@class=&quot;ItemListLayout&quot;]/div[@class=&quot;ItemListLayout-mainContent&quot;]</value>
+      <webElementGuid>0491ede0-f276-4281-82d2-290727607d48</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[5]/span/div/div[2]/main/div/div/div[2]/div</value>
+      <webElementGuid>b3842243-e51f-439a-b4b4-59331a94f33e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/following::div[2]</value>
+      <webElementGuid>c21667bb-bb79-4552-8cc2-5c6934b8dcc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Files'])[3]/following::div[7]</value>
+      <webElementGuid>ff08f1eb-4dc6-421b-ba67-c03d7d280e2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div[2]/div</value>
+      <webElementGuid>6676faf7-6dd3-4ae1-b99f-7fa544121451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sort byUpdatedNAMEUPDATEDSIZEFileGet Started with Box.pdf Today by Bob Dylan1.8 MBShow More OptionsCopy Shared LinkShareSelect' or . = 'Sort byUpdatedNAMEUPDATEDSIZEFileGet Started with Box.pdf Today by Bob Dylan1.8 MBShow More OptionsCopy Shared LinkShareSelect')]</value>
+      <webElementGuid>149f3397-8450-494f-91ce-ca242384a073</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

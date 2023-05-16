@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_File Upload</name>
+   <tag></tag>
+   <elementGuidId>bc198013-cf7b-40d1-a98c-4b22b7b65c27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='menu12']/div/div[2]/div/span/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.menu-item.UploadMenuItem</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>5c73f49e-c24f-445b-8c46-cd67a138a4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-item UploadMenuItem</value>
+      <webElementGuid>69a8bc41-25cd-4e45-be3b-e2ad9f3d3571</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>5207b456-bcb4-479c-b85e-b9830a72700c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>6303137f-a282-43d2-9230-0e072f22a48c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>File Upload</value>
+      <webElementGuid>68d6ccf9-0b71-4cec-99b1-f05f93bc9c60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu12&quot;)/div[1]/div[@class=&quot;scroll-container&quot;]/div[@class=&quot;scroll-wrap-container style--cover&quot;]/span[@class=&quot;bdl-targeted-click-through&quot;]/li[@class=&quot;menu-item UploadMenuItem&quot;]</value>
+      <webElementGuid>57a54bb7-aa79-45b2-96d5-18f321e7f89f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='menu12']/div/div[2]/div/span/li</value>
+      <webElementGuid>e805e79b-1dc8-4d29-9646-2e0f18fffdd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New item in'])[1]/following::li[1]</value>
+      <webElementGuid>306d998f-4ebd-4a85-b3e1-df4fba04b9d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Files and Folders'])[1]/following::li[1]</value>
+      <webElementGuid>19188cc5-9252-4246-9adb-1dfe3a318a1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Folder Upload'])[1]/preceding::li[1]</value>
+      <webElementGuid>0da057f8-fe88-4418-ae3a-02f8582c62d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/li</value>
+      <webElementGuid>58278623-e666-49fb-8b61-552a20a9de7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'File Upload' or . = 'File Upload')]</value>
+      <webElementGuid>5f5c4b33-eea2-45de-b388-f9e54d43b148</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

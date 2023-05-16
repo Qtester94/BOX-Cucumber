@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Test 1.jpgShow More Options</name>
+   <tag></tag>
+   <elementGuidId>e42b1d55-9eb6-438b-a8e3-70ad409fc0cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[5]/span/div/div[2]/main/div/div/div[2]/div/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.RecentsCarousel-cardsContainer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5b7ef6e9-4c10-4986-a0cf-947b2766dc7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>RecentsCarousel-cardsContainer</value>
+      <webElementGuid>50fefd4a-5a5c-4957-bef6-384970ab2af5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test 1.jpgShow More Options</value>
+      <webElementGuid>06955cbe-43fc-4b20-93a1-f5e01b82ce4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;in-app-messenger-provider&quot;]/span[@class=&quot;hotkey-layer&quot;]/div[@class=&quot;end-user has-header has-left-nav has-enhanced-styles has-no-page-content-level-left-padding has-no-page-content-level-right-padding has-sidebar&quot;]/div[@class=&quot;main-content-container&quot;]/main[1]/div[@class=&quot;transition-manager&quot;]/div[@class=&quot;page-content files-page&quot;]/div[@class=&quot;ItemListLayout&quot;]/div[@class=&quot;ItemListLayout-mainContent&quot;]/div[@class=&quot;non-item-list-wrapper page-content-row&quot;]/div[@class=&quot;RecentsCarousel-wrapper&quot;]/div[@class=&quot;RecentsCarousel&quot;]/div[@class=&quot;RecentsCarousel-cardsContainer&quot;]</value>
+      <webElementGuid>93241ed5-5ea3-4a1f-ac09-13e5a753e9e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[5]/span/div/div[2]/main/div/div/div[2]/div/div/div/div[3]/div</value>
+      <webElementGuid>5810e443-72ca-4705-9145-b31761f2c3f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recent Files'])[1]/following::div[3]</value>
+      <webElementGuid>1e7d9fcd-f828-4837-89cc-97ae088fa9e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/following::div[8]</value>
+      <webElementGuid>ee4d5ef6-abe3-4a01-906e-5d2b6aeed9b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::div[9]</value>
+      <webElementGuid>d3ddc54b-8c90-4e40-b2e8-a62a629d9ed0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[3]/div</value>
+      <webElementGuid>a5e4795b-537a-4972-9c3d-6cfb97f39770</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Test 1.jpgShow More Options' or . = 'Test 1.jpgShow More Options')]</value>
+      <webElementGuid>a923c37e-91af-40d7-81a0-57f6a7b0c270</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
