@@ -17,52 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
-String filepath = 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\Test\\Test1.jpg'
-
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://account.box.com/login?')
+WebUI.navigateToUrl('https://app.box.com/login')
 
 WebUI.setText(findTestObject('Object Repository/HomePage/input_Email Address_login'), 'qtester94+Bob@gmail.com')
 
-WebUI.click(findTestObject('LoginPage/button_Next'))
+WebUI.click(findTestObject('Object Repository/HomePage/button_Next'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/HomePage/input_Password_password'), 'uE9pEieVNs289u45J+1qGHh+mnHPFkWy')
 
-WebUI.click(findTestObject('LoginPage/button_Log In'))
+WebUI.click(findTestObject('Object Repository/HomePage/button_Log In'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/HomePage/span_BD'))
 
+WebUI.click(findTestObject('Object Repository/HomePage/span_Log Out'))
 
-//String  test2 = 'HomePage/button_New'
-WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/HomePage/h1_All Files'),filepath)
+url = WebUI.getUrl()
 
-
-
-
-
-
-
-
-
-WebUI.delay(5)
-// WebUI.uploadFileWithDragAndDrop(TestObject ('HomePage/button_New'), 'C:\\\\Users\\\\WeDoQA-ThinkPad-Man7\\\\Downloads\\\\Test\\\\Test1.jpg')
-
-WebUI.click(findTestObject('HomePage/button_New'))
-
-//WebUI.click(findTestObject('HomePage/li_File Upload'))
-WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), filepath)
-
-WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), filepath)
-
-//WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\Test\\Test 1.jpg')
-WebUI.verifyElementPresent(findTestObject('HomePage/div_Test 1.jpg was uploaded successfully.Share'), 0)
+WebUI.verifyMatch(url, 'https://account.box.com/login', false)
 
 WebUI.closeBrowser()
-
-WebUI.click(findTestObject('HomePage/button_New'))
 

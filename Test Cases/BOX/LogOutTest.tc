@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LogOutTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a92fcd3c-f60b-486e-99f0-d893ef6633d0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf5e2daa-7153-4a02-a967-4a2da792cc78</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf5e2daa-7153-4a02-a967-4a2da792cc78</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

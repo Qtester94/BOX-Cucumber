@@ -18,7 +18,7 @@
       <variableId>4c25c34f-e3ac-4302-b306-527d01ec74dc</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'C:\\\\Users\\\\WeDoQA-ThinkPad-Man7\\Downloads\\\\Test\\\\Test 1.jpg'</defaultValue>
+      <defaultValue>'C:\\\\Users\\\\WeDoQA-ThinkPad-Man7\\\\Downloads\\\\Test\\\\Test1.jpg'</defaultValue>
       <description></description>
       <id>e1896eb0-4ae9-4a5c-96e3-cb6c1b92c5b7</id>
       <masked>false</masked>

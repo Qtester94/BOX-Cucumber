@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Get Started with Box.pdf</name>
+   <tag></tag>
+   <elementGuidId>e406e09f-69aa-490d-a3d2-4ee2db541155</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contextmenutarget31']/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.name-row</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d469aa7-54c1-4e29-882a-115ee87ef90c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>name-row</value>
+      <webElementGuid>5f1d6ec5-3437-4312-8416-9eb1b9da2925</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Get Started with Box.pdf</value>
+      <webElementGuid>77aedda6-943e-4076-be72-a5921bbad2da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contextmenutarget31&quot;)/div[@class=&quot;TableRow-focusBorder&quot;]/div[@class=&quot;ReactVirtualized__Table__rowColumn file-list-name&quot;]/div[@class=&quot;item-list-name&quot;]/div[@class=&quot;item-name-holder&quot;]/div[@class=&quot;name-row&quot;]</value>
+      <webElementGuid>d57b1410-6f1d-4ed8-927e-34445452d211</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contextmenutarget31']/div/div[2]/div/div/div</value>
+      <webElementGuid>0b650acc-402c-46bf-a5dd-751b6318c931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIZE'])[1]/following::div[10]</value>
+      <webElementGuid>34a6d37c-d34c-464d-85e8-90204dfa215e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATED'])[1]/following::div[14]</value>
+      <webElementGuid>9914d8d1-289c-4d6c-98e5-dd350e22e15b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yesterday by Bob Dylan'])[1]/preceding::div[5]</value>
+      <webElementGuid>c70ae037-9d6d-4a7c-80a2-f63721baea2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>08ac8899-2475-4448-961e-ef8b78d0ad2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Get Started with Box.pdf' or . = 'Get Started with Box.pdf')]</value>
+      <webElementGuid>946d03b4-b292-4922-9b53-4438b0254891</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

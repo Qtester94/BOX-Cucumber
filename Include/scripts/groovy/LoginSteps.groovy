@@ -44,72 +44,72 @@ import cucumber.api.java.en.When
 
 
 class LoginSteps {
-	
+
 	@Given ("User navigates to login page")
-		def navigateToLoginPage() {
-			println ("\n I am inside navigateToLoginPage")
-			WebUI.openBrowser('')
-			WebUI.maximizeWindow()
-			WebUI.navigateToUrl('https://account.box.com/login?')
+	def navigateToLoginPage() {
+		println ("\n I am inside navigateToLoginPage")
+		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
+		WebUI.navigateToUrl('https://account.box.com/login?')
 	}
-		
-	@When  ("User enters valid (.*) and (.*)")	
-		def enterValidCredential(String username, String password) {
-			println("\n I am inside enterValidCredential")
-			println ("\n Username: "+username)
-			println ("\n Password: "+password)
-			WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), username)
-			
-			WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
-			
-			WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), password)
-		}
-		
-	@When ("User enters invalid (.*) username and valid (.*)")	
-		def enterInvalidMail(String iusername, String password) {
-			println("\n I am inside eenterInvalidMail")
-			println ("\n Username: "+iusername)
-			println ("\n Password: "+password)
-			WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), iusername)
-			
-			WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
-			
-			WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), password)
-		}
-		
-	@When ("User enters invalid (.*) password and valid (.*)")	
-		def enterInvalidPassword( String ipassword, String username) {
-			println("\n I am inside enterInvalidPassword")
-			println ("\n Username: "+username)
-			println ("\n Password: "+ipassword)
-			WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), username)
-			
-			WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
-			
-			WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), ipassword)
-		}
-		
-		
-	@And ("Click on the login button")	
-		def clickLogin() {
-			println("\n I am inside clickLogin")
-			WebUI.click(findTestObject('Object Repository/LoginPage/button_Log In'))
-		}	
-		
-	@Then ("User is navigated to the home page")	
-		def verifyHomePage() {
-			println("\n I am inside verifyHomePage")
-			String url = WebUI.getUrl()
-			WebUI.verifyMatch(url, 'https://app.box.com/folder/0', false)
-			WebUI.closeBrowser()
-		}
-		
-	@Then ("The user is not logged in")	
-		def UserisNotLoggedIn (){
-			println("\n I am inside UserisNotLoggedI")
+
+	@When  ("User enters valid (.*) and (.*)")
+	def enterValidCredential(String username, String password) {
+		println("\n I am inside enterValidCredential")
+		println ("\n Username: "+username)
+		println ("\n Password: "+password)
+		WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), username)
+
+		WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), password)
+	}
+
+	@When ("User enters invalid (.*) username and valid (.*)")
+	def enterInvalidMail(String iusername, String password) {
+		println("\n I am inside eenterInvalidMail")
+		println ("\n Username: "+iusername)
+		println ("\n Password: "+password)
+		WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), iusername)
+
+		WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), password)
+	}
+
+	@When ("User enters invalid (.*) password and valid (.*)")
+	def enterInvalidPassword( String ipassword, String username) {
+		println("\n I am inside enterInvalidPassword")
+		println ("\n Username: "+username)
+		println ("\n Password: "+ipassword)
+		WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), username)
+
+		WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), ipassword)
+	}
+
+
+	@And ("Click on the login button")
+	def clickLogin() {
+		println("\n I am inside clickLogin")
+		WebUI.click(findTestObject('Object Repository/LoginPage/button_Log In'))
+	}
+
+	@Then ("User is navigated to the home page")
+	def verifyHomePage() {
+		println("\n I am inside verifyHomePage")
+		String url = WebUI.getUrl()
+		WebUI.verifyMatch(url, 'https://app.box.com/folder/0', false)
+		WebUI.closeBrowser()
+	}
+
+	@Then ("The user is not logged in")
+	def UserisNotLoggedIn (){
+		println("\n I am inside UserisNotLoggedI")
 		WebUI.verifyElementPresent(findTestObject('LoginPage/div_Invalid Login Credentials'), 0)
 		WebUI.closeBrowser()
 	}
-	}
-	
-	
+}
+
+
