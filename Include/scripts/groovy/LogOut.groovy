@@ -47,24 +47,21 @@ class LogOut {
 
 	@And ("Click on the profile button")
 	def clickProfileButton() {
-		
+
 		WebUI.click(findTestObject('Object Repository/HomePage/span_BD'))
 	}
-	
-	
+
+
 	@And ("Click on the Log Out button")
 	def clickLogOutButton() {
 		WebUI.click(findTestObject('Object Repository/HomePage/span_Log Out'))
 	}
-	
-	
+
+
 	@Then ("The user is logged out")
 	def userLoggedOut() {
 		String url = WebUI.getUrl()
 		WebUI.verifyMatch(url, 'https://account.box.com/login', false)
 		WebUI.closeBrowser()
-		
 	}
-	
-	
 }

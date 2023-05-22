@@ -16,33 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 String filepath = 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\Test\\Test1.jpg'
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://ps.uci.edu/~franklin/doc/file_upload.html')
 
-WebUI.navigateToUrl('https://account.box.com/login?')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/HomePage/input_Email Address_login'), 'qtester94+Bob@gmail.com')
+WebUI.uploadFile(findTestObject('Test/input_submit'), filepath)
 
-WebUI.click(findTestObject('LoginPage/button_Next'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/HomePage/input_Password_password'), 'uE9pEieVNs289u45J+1qGHh+mnHPFkWy')
-
-WebUI.click(findTestObject('LoginPage/button_Log In'))
-
-WebUI.click(findTestObject('HomePage/button_New'))
-
-//WebUI.click(findTestObject('HomePage/li_File Upload'))
-WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), filepath)
-
-//WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\Test\\Test 1.jpg')
-WebUI.verifyElementPresent(findTestObject('HomePage/div_Test 1.jpg was uploaded successfully.Share'), 0)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
-
-WebUI.click(findTestObject('HomePage/button_New'))
 

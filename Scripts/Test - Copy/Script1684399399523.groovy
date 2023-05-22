@@ -34,10 +34,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/HomePage/input_Password
 
 WebUI.click(findTestObject('LoginPage/button_Log In'))
 
-WebUI.click(findTestObject('HomePage/button_New'))
-
-//WebUI.click(findTestObject('HomePage/li_File Upload'))
-WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), filepath)
+WebUI.clickOffset(findTestObject('HomePage/div_Get Started with Box.pdf'), 300, 500)
+WebUI.uploadFileWithDragAndDrop(findTestObject('HomePage/div_Get Started with Box.pdf'), filepath, FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\Test\\Test 1.jpg')
 WebUI.verifyElementPresent(findTestObject('HomePage/div_Test 1.jpg was uploaded successfully.Share'), 0)

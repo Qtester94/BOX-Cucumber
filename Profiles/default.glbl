@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>list of executed TestRail test case IDs</description>
+      <initValue>[]</initValue>
+      <name>G_run_testrail_tc_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>a list of executed TestRail test case status</description>
+      <initValue>[]</initValue>
+      <name>G_run_testrail_tc_status</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>current TestRail test run ID</description>
+      <initValue>'0'</initValue>
+      <name>G_testrail_run_id</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

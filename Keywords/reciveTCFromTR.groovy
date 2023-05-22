@@ -1,0 +1,41 @@
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.TestObjectProperty
+import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
+
+import groovy.json.JsonSlurper
+
+
+
+
+class reciveTCFromTR {
+	/**
+	 * Refresh browser
+	 */
+	@Keyword
+	def get_tests(String id) {
+
+		println(id)
+		def slurper = new JsonSlurper()
+		RequestObject ro = new RequestObject('Get TestRail tests')
+		ro.setRestRequestMethod('GET')
+		ro.setRestUrl('https://boxkatalon.testrail.io/index.php?/api/v2/get_tests/' + id)
+
+		def httpheader = new ArrayList<TestObjectProperty>()
+		httpheader.add(new TestObjectProperty(
+				'Content-Type', ConditionType.EQUALS, 'application/json'))
+
+		httpheader.add(new TestObjectProperty(
+				'Authorization', ConditionType.EQUALS,
+				'gT8ANAoL6KxySEF2h/mA1oQmJpbP28Jd:DsyRplronOqP3CLUF2CoaA=='))
+
+		ro.setHttpHeaderProperties(httpheader)
+		ro.setBodyContent(
+				new HttpTextBodyContent('', 'UTF-8', 'application/json'))
+
+		def response = WSBuiltInKeywords.sendRequest(ro)
+		return slurper.parseText(response.getResponseText())
+	}
+}

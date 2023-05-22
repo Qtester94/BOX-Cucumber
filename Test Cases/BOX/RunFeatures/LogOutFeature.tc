@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e1dbfccc-bc6f-468e-b587-6f00a10bfeef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20f18a99-fa32-4d32-bb57-64121fcdf2ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>20f18a99-fa32-4d32-bb57-64121fcdf2ee</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
 </TestCaseEntity>

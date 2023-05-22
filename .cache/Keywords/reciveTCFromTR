@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "4A43CF4AA1CAF5981A4B12CD18A16F51",
+  "keywordClasses": [
+    {
+      "name": "reciveTCFromTR",
+      "keywordMethods": [
+        {
+          "name": "get_tests",
+          "parameters": [
+            {
+              "name": "id",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

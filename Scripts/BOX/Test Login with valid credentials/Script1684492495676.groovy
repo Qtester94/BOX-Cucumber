@@ -31,9 +31,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Passwor
 
 WebUI.click(findTestObject('Object Repository/LoginPage/button_Log In'))
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+url = WebUI.getUrl()
 
-WebUI.verifyElementPresent(findTestObject('LoginPage/div_Invalid Login Credentials'), 0)
+WebUI.verifyMatch(url, 'https://app.box.com/folder/0', false)
 
 WebUI.closeBrowser()
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LoginTest</name>
+   <name>CominicationKatalonTestRail</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>36e35bf9-40ab-4b70-bbae-fb873170b139</testCaseGuid>
+   <testCaseGuid>544beb25-d2db-4468-a453-1264fb94c3f2</testCaseGuid>
 </TestCaseEntity>

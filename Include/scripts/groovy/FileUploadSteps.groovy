@@ -44,29 +44,29 @@ import cucumber.api.java.en.When
 
 
 class FileUploadSteps {
-	
+
 	@And ("Click on the New button")
 	def clickOnNewButton () {
 		println(" Click on the New button.")
 		WebUI.click(findTestObject('HomePage/button_New'))
 	}
-	
+
 	@And ("Click File upload")
 	def clickFileUpload() {
 		println("Click on the File Upload option")
 		WebUI.click(findTestObject('Object Repository/HomePage/li_File Upload'))
 	}
-	
+
 	@And ("Select valid file")
 	def selectValidFile() {
 		println("Select valid file")
 	}
-	
+
 	@Then ("File is uploaded")
 	def fileIsUploadedSuccessfully() {
 		println("File is uploaded")
 		WebUI.verifyElementPresent(findTestObject('HomePage/div_Test 1.jpg was uploaded successfully.Share'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
 }
