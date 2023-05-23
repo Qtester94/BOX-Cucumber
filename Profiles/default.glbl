@@ -16,7 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>current TestRail test run ID</description>
-      <initValue>'35'</initValue>
+      <initValue>'53'</initValue>
       <name>G_testrail_run_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Test</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

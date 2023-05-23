@@ -21,7 +21,7 @@ class reciveTCFromTR {
 		def slurper = new JsonSlurper()
 		RequestObject ro = new RequestObject('Get TestRail tests')
 		ro.setRestRequestMethod('GET')
-		ro.setRestUrl('https://boxkatalon.testrail.io/index.php?/api/v2/get_tests/' + id)
+		ro.setRestUrl('https://boxkatalon.testrail.io/index.php?/api/v2/get_tests/' + id+"=")
 
 		def httpheader = new ArrayList<TestObjectProperty>()
 		httpheader.add(new TestObjectProperty(
@@ -29,7 +29,7 @@ class reciveTCFromTR {
 
 		httpheader.add(new TestObjectProperty(
 				'Authorization', ConditionType.EQUALS,
-				'gT8ANAoL6KxySEF2h/mA1oQmJpbP28Jd:DsyRplronOqP3CLUF2CoaA=='))
+				'cXRlc3Rlcjk0QGdtYWlsLmNvbTo5IT09eDNMO1YrLmJ4Njs='))
 
 		ro.setHttpHeaderProperties(httpheader)
 		ro.setBodyContent(
