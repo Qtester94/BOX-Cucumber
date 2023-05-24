@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "D8C1D2882D1D38AE1A19C50CEE0431F7",
+  "keywordClasses": [
+    {
+      "name": "testrail",
+      "keywordMethods": [
+        {
+          "name": "addTestRun",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "addTestsToRun",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "addResultsToTests",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

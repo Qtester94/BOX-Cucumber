@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getRuns</name>
+   <name>getTests</name>
    <tag></tag>
-   <elementGuidId>51f75795-6d9a-44b2-8074-03839668c652</elementGuidId>
+   <elementGuidId>fd4cbe7f-c662-451a-98da-400db4892702</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
@@ -18,13 +18,13 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Basic cXRlc3Rlcjk0QGdtYWlsLmNvbTo5IT09eDNMO1YrLmJ4Njs=</value>
-      <webElementGuid>3a64e4b8-1b2b-425c-9497-dab205b2bc13</webElementGuid>
+      <webElementGuid>1b7552e4-8499-4587-bcbb-c238efb7f557</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://boxkatalon.testrail.io/index.php?/api/v2/get_runs/1=</restUrl>
+   <restUrl>https://boxkatalon.testrail.io/index.php?/api/v2/get_tests/35=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,13 +33,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>GlobalVariable.Test</defaultValue>
-      <description></description>
-      <id>d172d62c-d64c-4b1c-919b-2b4153a21250</id>
-      <masked>false</masked>
-      <name>runID</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -52,15 +45,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-
-WS.verifyResponseStatusCode(response, 200)
-
-assertThat(response.getStatusCode()).isEqualTo(200)
-
-
-
-</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://account.box.com/login?')
+
+WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), 'qtester94+Bob@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), 'wpk5TPzCJQNgI48oA5JcgA==')
+
+WebUI.click(findTestObject('Object Repository/LoginPage/button_Log In'))
+
+WebUI.verifyElementPresent(findTestObject('LoginPage/div_Invalid Login Credentials'), 0)
+
+WebUI.closeBrowser()
+

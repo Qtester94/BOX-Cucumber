@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test3</name>
+   <name>AddingToTestrail</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5d5dd396-873d-4bb5-b587-7195f2241c2f</testCaseGuid>

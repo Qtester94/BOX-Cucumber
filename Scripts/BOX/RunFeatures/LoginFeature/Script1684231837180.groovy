@@ -19,3 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/BOX/Login.feature')
 
+//add Test Run and gets the ID of it
+// add tests to testrun
+CustomKeywords.'testrail.addTestRun'()
+
+CustomKeywords.'testrail.addTestsToRun'()
+
+/// Covert Test Status
+CustomKeywords.'convertTestStatus.convertStatus'()
+
+/// Add result to test
+CustomKeywords.'testrail.addResultsToTests'()

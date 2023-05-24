@@ -16,33 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import groovy.json.JsonSlurper as JsonSlurper
 
-String filepath = 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\Test\\Test1.jpg'
+//add Test Run and gets the ID of it
+// add tests to testrun
+CustomKeywords.'testrail.addTestRun'()
 
-WebUI.openBrowser('')
+CustomKeywords.'testrail.addTestsToRun'()
 
-WebUI.maximizeWindow()
+/// Covert Test Status
+CustomKeywords.'convertTestStatus.convertStatus'()
 
-WebUI.navigateToUrl('https://account.box.com/login?')
-
-WebUI.setText(findTestObject('Object Repository/HomePage/input_Email Address_login'), 'qtester94+Bob@gmail.com')
-
-WebUI.click(findTestObject('LoginPage/button_Next'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/HomePage/input_Password_password'), 'uE9pEieVNs289u45J+1qGHh+mnHPFkWy')
-
-WebUI.click(findTestObject('LoginPage/button_Log In'))
-
-WebUI.click(findTestObject('HomePage/button_New'))
-
-//WebUI.click(findTestObject('HomePage/li_File Upload'))
-WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), filepath)
-
-//WebUI.uploadFile(findTestObject('HomePage/li_File Upload'), 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\Test\\Test 1.jpg')
-WebUI.verifyElementPresent(findTestObject('HomePage/div_Test 1.jpg was uploaded successfully.Share'), 0)
-
-WebUI.closeBrowser()
-
-WebUI.click(findTestObject('HomePage/button_New'))
+/// Add result to test
+CustomKeywords.'testrail.addResultsToTests'()
 

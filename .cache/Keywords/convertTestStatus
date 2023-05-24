@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "2441EDE599F3D337E41739BCA47EE106",
+  "keywordClasses": [
+    {
+      "name": "convertTestStatus",
+      "keywordMethods": [
+        {
+          "name": "convertStatus",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

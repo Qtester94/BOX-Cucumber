@@ -17,16 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-println(GlobalVariable.G_testrail_run_id)
+WebUI.openBrowser('')
 
-println(GlobalVariable.G_run_testrail_tc_id)
+WebUI.maximizeWindow()
 
-println(GlobalVariable.G_run_testrail_tc_status)
+WebUI.navigateToUrl('https://account.box.com/login?')
 
-WS.sendRequest(findTestObject('API/addTestToTestRun', [('runID') : GlobalVariable.G_testrail_run_id, ('tcID') : GlobalVariable.G_run_testrail_tc_id
-            , ('url') : ('/api/v2/update_run/' + GlobalVariable.G_testrail_run_id) + '/']))
+WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), 'qtester94@gmail.com')
 
-WS.sendRequest(findTestObject('API/addResultForCase', [('runID') : GlobalVariable.G_testrail_run_id, ('tcID') : GlobalVariable.G_run_testrail_tc_id
-            , ('tcStatus') : GlobalVariable.G_run_testrail_tc_status[0], ('url') : (('/api/v2/add_result_for_case/' + GlobalVariable.G_testrail_run_id) + 
-            '/') + (GlobalVariable.G_run_testrail_tc_id[0])]))
+WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), 'uE9pEieVNs289u45J+1qGHh+mnHPFkWy')
+
+WebUI.click(findTestObject('Object Repository/LoginPage/button_Log In'))
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://app.box.com/folder/0', false)
+
+WebUI.closeBrowser()
 

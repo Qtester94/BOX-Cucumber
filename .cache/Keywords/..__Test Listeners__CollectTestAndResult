@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "7BB82E26A506F4E3FD2C3AA67E1908D4",
+  "keywordFileContentHash": "A7F17DBFA05BF17772AA62141C54BFF9",
   "keywordClasses": [
     {
       "name": "CollectTestAndResult",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

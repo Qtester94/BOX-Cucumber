@@ -60,7 +60,7 @@
       <name>tcID</name>
    </variables>
    <variables>
-      <defaultValue>'/api/v2/update_run/'+GlobalVariable.G_testrail_run_id+'/'</defaultValue>
+      <defaultValue>'/api/v2/update_run/'+GlobalVariable.G_testrail_run_id+'/'+ GlobalVariable.G_run_testrail_tc_id[0]</defaultValue>
       <description></description>
       <id>41661528-1fff-49eb-8a17-f4e04f30d904</id>
       <masked>false</masked>

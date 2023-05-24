@@ -21,15 +21,6 @@ class CollectTestAndResult {
 			
 			
 }	
-println(GlobalVariable.G_run_testrail_tc_status)
-if (GlobalVariable.G_run_testrail_tc_status[0] == "PASSED") {
-	GlobalVariable.G_run_testrail_tc_status = "1"
-}
-else {
-	GlobalVariable.G_run_testrail_tc_status = "5"
-}
 
-println(GlobalVariable.G_run_testrail_tc_id)
-println(GlobalVariable.G_run_testrail_tc_status)
-}
+	}
 }

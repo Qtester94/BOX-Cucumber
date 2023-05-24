@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>S1_BoxFeatures0519A</name>
+   <name>Final Test D</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,44 +10,56 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>e4c99ad6-dc2a-4065-9126-e1936b07263d</testSuiteGuid>
+   <testSuiteGuid>6326aa31-55b9-4b24-9fcb-3dd1706cbeed</testSuiteGuid>
    <testCaseLink>
-      <guid>42ea7e31-0f8e-47df-bb10-97ab38fc9e0b</guid>
+      <guid>3c84daaa-a673-4f7c-b82c-84be207de0d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BOX/RunFeatures/LoginFeature</testCaseId>
+      <testCaseId>Test Cases/BOX/Test Login with valid credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1896b928-c880-43c7-847a-f9c34f868680</variableId>
+         <variableId>102c8b13-aceb-421c-9545-4b9b4487c694</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13174997-850d-459f-9737-6ff54910f0ad</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c30cc305-8386-4468-95d8-0251e47a9914</guid>
+      <guid>3d79c634-f87c-4fc8-a28b-09efed7e2ce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BOX/RunFeatures/LogOutFeature</testCaseId>
+      <testCaseId>Test Cases/BOX/Test Login with valid credentials - Fails</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>20f18a99-fa32-4d32-bb57-64121fcdf2ee</variableId>
+         <variableId>b2787a98-9cd5-4966-aa41-fa42b4eb5aff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6970081d-7202-4822-8632-d954497e1cba</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0c2ed809-b500-48c6-a07b-8e3870039ff1</guid>
+      <guid>e995207e-4a7e-459c-b3e1-c5ed02e88b85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BOX/RunFeatures/DownloadFeature</testCaseId>
+      <testCaseId>Test Cases/BOX/Test Login with invalid credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7e865f70-b97d-4e46-a762-6c007dd897e0</variableId>
+         <variableId>676cbe14-b46c-481e-abcf-dbd64aaa08eb</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

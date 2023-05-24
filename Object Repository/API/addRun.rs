@@ -1,30 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getRuns</name>
+   <name>addRun</name>
    <tag></tag>
-   <elementGuidId>51f75795-6d9a-44b2-8074-03839668c652</elementGuidId>
+   <elementGuidId>0620dcae-74b8-4ea1-940f-7f4f74f18e5a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\&quot;name\&quot;:\&quot;${testRunName}\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>e56503c9-67c6-4e5e-9452-c36b24e01e26</webElementGuid>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
       <value>Basic cXRlc3Rlcjk0QGdtYWlsLmNvbTo5IT09eDNMO1YrLmJ4Njs=</value>
-      <webElementGuid>3a64e4b8-1b2b-425c-9497-dab205b2bc13</webElementGuid>
+      <webElementGuid>2017a15e-b15f-4d8b-b1e0-50205f42a9b6</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://boxkatalon.testrail.io/index.php?/api/v2/get_runs/1=</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://boxkatalon.testrail.io/index.php?/api/v2/add_run/1=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -34,11 +46,11 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.Test</defaultValue>
+      <defaultValue>GlobalVariable.TestRunName</defaultValue>
       <description></description>
-      <id>d172d62c-d64c-4b1c-919b-2b4153a21250</id>
+      <id>691fb570-806e-44ca-989d-2470509c061f</id>
       <masked>false</masked>
-      <name>runID</name>
+      <name>testRunName</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -46,7 +58,7 @@ import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webservice.verification.WSResponseManager
-
+import groovy.json.JsonSlurperString
 import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 

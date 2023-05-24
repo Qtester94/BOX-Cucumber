@@ -3,7 +3,7 @@
    <description></description>
    <name>getTest</name>
    <tag></tag>
-   <elementGuidId>fd4cbe7f-c662-451a-98da-400db4892702</elementGuidId>
+   <elementGuidId>c06484fd-c629-4ad6-b573-0a2eb368b2d3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
@@ -18,13 +18,13 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Basic cXRlc3Rlcjk0QGdtYWlsLmNvbTo5IT09eDNMO1YrLmJ4Njs=</value>
-      <webElementGuid>1b7552e4-8499-4587-bcbb-c238efb7f557</webElementGuid>
+      <webElementGuid>acb757e8-213c-43db-853b-36f53834a849</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://boxkatalon.testrail.io/index.php?/api/v2/get_tests/35=</restUrl>
+   <restUrl>https://boxkatalon.testrail.io/index.php?/api/v2/get_case/1=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
