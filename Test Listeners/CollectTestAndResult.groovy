@@ -19,8 +19,8 @@ class CollectTestAndResult {
 			GlobalVariable.G_run_testrail_tc_id.add(tc_ids[n])
 			GlobalVariable.G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus())
 			
-			
 }	
 
 	}
+	
 }

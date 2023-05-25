@@ -23,11 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://account.box.com/login?')
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), 'qtester94+Bob@gmail.com')
+WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email Address_login'), GlobalVariable.UserNameBox)
 
 WebUI.click(findTestObject('Object Repository/LoginPage/button_Next'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), 'uE9pEieVNs289u45J+1qGHh+mnHPFkWy')
+WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_password'), GlobalVariable.PasswordBox)
 
 WebUI.click(findTestObject('Object Repository/LoginPage/button_Log In'))
 

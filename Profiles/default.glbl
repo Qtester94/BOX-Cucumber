@@ -21,7 +21,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test Feature'</initValue>
+      <initValue>'qtester94+Bob@gmail.com'</initValue>
+      <name>UserNameBox</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'uE9pEieVNs289u45J+1qGHh+mnHPFkWy'</initValue>
+      <name>PasswordBox</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test Fails1'</initValue>
       <name>TestRunName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

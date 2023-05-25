@@ -11,11 +11,24 @@
       <value></value>
       <variableId>1896b928-c880-43c7-847a-f9c34f868680</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ec88805-3fc5-4ba0-b7c2-707cd23af6ed</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>1</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>1896b928-c880-43c7-847a-f9c34f868680</id>
       <masked>false</masked>
       <name>testrail_tc_id</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>6ec88805-3fc5-4ba0-b7c2-707cd23af6ed</id>
+      <masked>false</masked>
+      <name>scenarioResults</name>
    </variable>
 </TestCaseEntity>

@@ -29,6 +29,8 @@ class CallComunication {
 	 */
 	@AfterTestSuite
 	def afterTestSuite() {
+	
+		
 		'push results to testrail'
 		//WebUI.callTestCase(findTestCase('Test Cases/BOX/CominicationKatalonTestRail'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Test Cases/AddingToTestrail'), [:], FailureHandling.CONTINUE_ON_FAILURE)

@@ -30,7 +30,7 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Basic cXRlc3Rlcjk0QGdtYWlsLmNvbTo5IT09eDNMO1YrLmJ4Njs=</value>
-      <webElementGuid>4af9b228-695e-4b2a-987d-b60cb17e6361</webElementGuid>
+      <webElementGuid>638b12ee-77e1-46ee-b95f-9b1098d46bfb</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>

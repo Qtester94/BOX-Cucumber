@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "85B5BFC49E66197E523055BBE5468977",
+  "keywordFileContentHash": "9C9B5402D0887B8AE4BD99C6614F26F9",
   "keywordClasses": [
     {
       "name": "CallComunication",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
