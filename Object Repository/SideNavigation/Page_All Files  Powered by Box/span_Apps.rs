@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Apps</name>
+   <tag></tag>
+   <elementGuidId>2f6c6223-3474-4b04-bda6-02a436cb8bf1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(7) > div.CollapsibleSidebarMenuItem__StyledMenuItem-sc-1fmdq8m-0.kStwWu.bdl-CollapsibleSidebar-menuItem > a.CollapsibleSidebarMenuItem__StyledLink-sc-1fmdq8m-3.jWudE.bdl-CollapsibleSidebar-menuItemLink.show-overflowAction > span.CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2.dXGbkW.bdl-CollapsibleSidebar-menuItemLabel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[7]/div/a/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>505039e7-833f-4321-b0e8-6a5c1f73eb76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel</value>
+      <webElementGuid>59feee07-f0d0-4f04-884d-51022cc9089c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apps</value>
+      <webElementGuid>1ad78e62-a385-4c35-b04d-8b64cbd9192a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;in-app-messenger-provider&quot;]/span[@class=&quot;hotkey-layer&quot;]/div[@class=&quot;end-user has-header has-left-nav has-enhanced-styles has-no-page-content-level-left-padding has-no-page-content-level-right-padding has-sidebar&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-wrapper&quot;]/nav[@class=&quot;CollapsibleSidebar__StyledNav-sc-4t6rz4-0 dljPmD is-expanded bdl-CollapsibleSidebar LeftNav&quot;]/div[@class=&quot;CollapsibleSidebarNav__StyledScrollContainer-csqupn-1 lYUBv ScrollbarsCustom scroll-shadow-container&quot;]/div[@class=&quot;ScrollbarsCustom-Wrapper&quot;]/div[@class=&quot;ScrollbarsCustom-Scroller&quot;]/div[@class=&quot;ScrollbarsCustom-Content&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-nav&quot;]/ul[1]/li[7]/div[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItem-sc-1fmdq8m-0 kStwWu bdl-CollapsibleSidebar-menuItem&quot;]/a[@class=&quot;CollapsibleSidebarMenuItem__StyledLink-sc-1fmdq8m-3 jWudE bdl-CollapsibleSidebar-menuItemLink show-overflowAction&quot;]/span[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel&quot;]</value>
+      <webElementGuid>22881b8f-bb1a-4b47-b1a1-0b06978c43b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[7]/div/a/span[2]</value>
+      <webElementGuid>1c2c94d9-6b7d-4668-a0be-722e905a371c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[2]/following::span[2]</value>
+      <webElementGuid>cf2f88d9-d31a-4de8-8453-527cb897460a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign'])[1]/following::span[5]</value>
+      <webElementGuid>5f208622-c881-4d09-bf82-c6512704639b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trash'])[1]/preceding::span[2]</value>
+      <webElementGuid>ef9c6654-1db3-4dd7-8335-7f5a22fb41fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Collections'])[1]/preceding::span[3]</value>
+      <webElementGuid>cae2c681-3c91-464b-be8e-d19f498242d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Apps']/parent::*</value>
+      <webElementGuid>ac598c91-eb96-4463-bae9-9a77b00e372b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/div/a/span[2]</value>
+      <webElementGuid>fb3f43c4-ca3b-4295-9e76-89654312aed9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Apps' or . = 'Apps')]</value>
+      <webElementGuid>c7604a79-5ed8-45ab-a2a3-47d0251a099f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

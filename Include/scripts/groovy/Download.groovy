@@ -56,82 +56,76 @@ class Download {
 	@And ("Click on the Get Started with Box PDF")
 	def clickPDF() {
 		WebUI.click(findTestObject('Object Repository/HomePage/div_Get Started with Box.pdf'))
-		
 	}
-	
-	
+
+
 	@Then("The file preview window open")
 	def previewFileWindowopened() {
 		String url = WebUI.getUrl()
 		WebUI.verifyMatch(url, 'https://app.box.com/file/1215224276018', false)
 		WebUI.closeBrowser()
-		
 	}
-	
+
 	@And ("Click on the Download button")
 	def clickDownloadbutton() {
 		WebUI.click(findTestObject('Object Repository/DownloadPage/button_Download'))
-		
 	}
-	
-	
+
+
 	@And("Click on the close Preview button")
 	def clickClosePreviewFileWindowButton() {
 		WebUI.click(findTestObject('Object Repository/DownloadPage/a_Share_preview-close-btn'))
-		
 	}
-	
+
 	@And ("Click on the more button on File Card")
 	def clickMoreBurronFileCard() {
 		WebUI.mouseOver(findTestObject('HomePage/div_Get Started with Box.pdf'))
 		WebUI.click(findTestObject('HomePage/button_Show More Options'))
-		
 	}
-	
-	
+
+
 	@And("Click on the Download button from File Card")
 	def clickDownloadFromFileCard() {
 		WebUI.click(findTestObject('HomePage/li_Download'))
-		
 	}
-		
-	
+
+
 	@Then ("The file is downloaded")
 	def fileIsDownloaded() {
 		String downloadPath = 'C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads'
 		Assert.assertTrue(isFileDownloaded(downloadPath, 'Get Started with Box.pdf'), 'Failed to download Expected document')
 		WebUI.closeBrowser()
 	}
-	
-	
-	
+
+
+
 	boolean isFileDownloaded(String downloadPath, String fileName) {
 		long timeout = (5 * 60) * 1000
-	
+
 		long start = new Date().getTime()
-	
+
 		boolean downloaded = false
-	
+
 		File file = new File(downloadPath, fileName)
-	
+
 		while (!(downloaded)) {
 			KeywordUtil.logInfo("Checking file exists $file.absolutePath")
-	
+
 			downloaded = file.exists()
-	
+
 			if (downloaded) {
 				file.delete()
 			} else {
 				long now = new Date().getTime()
-	
+
 				if ((now - start) > timeout) {
 					break
 				}
-				
+
 				Thread.sleep(3000)
 			}
 		}
-		
+
 		return downloaded
 	}
 }

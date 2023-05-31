@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sign</name>
+   <tag></tag>
+   <elementGuidId>199bf275-368f-4c4a-830b-21c4cc4b6799</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.CollapsibleSidebarMenuItem__StyledMenuItem-sc-1fmdq8m-0.kStwWu.bdl-CollapsibleSidebar-menuItem.left-sidebar-sign > a.CollapsibleSidebarMenuItem__StyledLink-sc-1fmdq8m-3.jWudE.bdl-CollapsibleSidebar-menuItemLink.show-overflowAction > span.CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2.dXGbkW.bdl-CollapsibleSidebar-menuItemLabel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[6]/div/a/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>db35231f-dbd5-4be1-8062-00c12d7f1ef9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel</value>
+      <webElementGuid>b49d0c2e-a6c5-4795-8571-9f79d3c597e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign</value>
+      <webElementGuid>bf7fe001-b166-490b-84c5-a536e602c944</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;in-app-messenger-provider&quot;]/span[@class=&quot;hotkey-layer&quot;]/div[@class=&quot;end-user has-header has-left-nav has-enhanced-styles has-no-page-content-level-left-padding has-no-page-content-level-right-padding has-sidebar&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-wrapper&quot;]/nav[@class=&quot;CollapsibleSidebar__StyledNav-sc-4t6rz4-0 dljPmD is-expanded bdl-CollapsibleSidebar LeftNav&quot;]/div[@class=&quot;CollapsibleSidebarNav__StyledScrollContainer-csqupn-1 lYUBv ScrollbarsCustom scroll-shadow-container&quot;]/div[@class=&quot;ScrollbarsCustom-Wrapper&quot;]/div[@class=&quot;ScrollbarsCustom-Scroller&quot;]/div[@class=&quot;ScrollbarsCustom-Content&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-nav&quot;]/ul[1]/li[6]/div[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItem-sc-1fmdq8m-0 kStwWu bdl-CollapsibleSidebar-menuItem left-sidebar-sign&quot;]/a[@class=&quot;CollapsibleSidebarMenuItem__StyledLink-sc-1fmdq8m-3 jWudE bdl-CollapsibleSidebar-menuItemLink show-overflowAction&quot;]/span[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel&quot;]</value>
+      <webElementGuid>34a22904-50c9-4aab-ab36-7cfc5b37cced</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[6]/div/a/span[2]</value>
+      <webElementGuid>82994700-961a-4d83-876b-80190c25437d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::span[3]</value>
+      <webElementGuid>3d0328a2-4993-44a4-a1ac-b652e1c0a506</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/following::span[7]</value>
+      <webElementGuid>3642ef21-4881-4b57-ae3c-4ca49d229d88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[2]/preceding::span[1]</value>
+      <webElementGuid>1c48e8f2-5982-4e8f-9f13-5050737a3788</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[1]/preceding::span[5]</value>
+      <webElementGuid>be0ad6f1-6f33-4872-a054-005072193da5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign']/parent::*</value>
+      <webElementGuid>49d49773-ed39-482d-841a-c3079d91c892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/div/a/span[2]</value>
+      <webElementGuid>40f4d163-60bc-4888-900d-e9afca8ba7b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sign' or . = 'Sign')]</value>
+      <webElementGuid>a9738644-43d9-4312-84ca-a85db20dc707</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

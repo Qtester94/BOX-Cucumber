@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Favorites</name>
+   <tag></tag>
+   <elementGuidId>207325ad-9553-42ea-9bb4-d9023ed3727e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.CollapsibleSidebarMenuItem__StyledMenuItem-sc-1fmdq8m-0.kStwWu.bdl-CollapsibleSidebar-menuItem.CollectionNavItem-link > a.CollapsibleSidebarMenuItem__StyledLink-sc-1fmdq8m-3.jWudE.bdl-CollapsibleSidebar-menuItemLink.show-overflowAction > span.CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2.dXGbkW.bdl-CollapsibleSidebar-menuItemLabel.overflow-action</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[9]/div/div/div/ul/li/div/a/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>87c23343-a13b-4e5a-8e1f-cb0f7008e544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel overflow-action</value>
+      <webElementGuid>5d9ebdea-6042-4a8e-8c27-a14f8a206ef3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Favorites</value>
+      <webElementGuid>5279eaba-fd40-41e6-8a05-e1290885315d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;in-app-messenger-provider&quot;]/span[@class=&quot;hotkey-layer&quot;]/div[@class=&quot;end-user has-header has-left-nav has-enhanced-styles has-no-page-content-level-left-padding has-no-page-content-level-right-padding has-sidebar&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-wrapper&quot;]/nav[@class=&quot;CollapsibleSidebar__StyledNav-sc-4t6rz4-0 dljPmD is-expanded bdl-CollapsibleSidebar LeftNav&quot;]/div[@class=&quot;CollapsibleSidebarNav__StyledScrollContainer-csqupn-1 lYUBv ScrollbarsCustom scroll-shadow-container&quot;]/div[@class=&quot;ScrollbarsCustom-Wrapper&quot;]/div[@class=&quot;ScrollbarsCustom-Scroller&quot;]/div[@class=&quot;ScrollbarsCustom-Content&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-nav&quot;]/ul[1]/li[9]/div[@class=&quot;LeftNav-collectionsSidebarItem&quot;]/div[@class=&quot;CollectionsNavList__StyledCollectionsNavList-ye1nqr-0 iaBirf CollectionsNavList&quot;]/div[@class=&quot;DropTarget&quot;]/ul[@class=&quot;CollectionNavList&quot;]/li[@class=&quot;CollectionNavItem&quot;]/div[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItem-sc-1fmdq8m-0 kStwWu bdl-CollapsibleSidebar-menuItem CollectionNavItem-link&quot;]/a[@class=&quot;CollapsibleSidebarMenuItem__StyledLink-sc-1fmdq8m-3 jWudE bdl-CollapsibleSidebar-menuItemLink show-overflowAction&quot;]/span[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel overflow-action&quot;]</value>
+      <webElementGuid>6a647539-8dbd-4403-9c46-06b2eabfb41d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[9]/div/div/div/ul/li/div/a/span[2]</value>
+      <webElementGuid>9771c95c-3d84-4d4d-9f5b-152ad968a1ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Collections'])[1]/following::span[4]</value>
+      <webElementGuid>23e14f05-2c98-4849-8dfd-4f409493b0a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trash'])[1]/following::span[7]</value>
+      <webElementGuid>b927e541-2947-4f0d-9d60-d214021bb94f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drag items here for quick access'])[1]/preceding::span[2]</value>
+      <webElementGuid>74862bec-32af-418b-a242-bd712be97994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upgrade Plan'])[1]/preceding::span[5]</value>
+      <webElementGuid>0986f8ac-47ef-4de3-8dfa-f5fcd9faa5fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Favorites']/parent::*</value>
+      <webElementGuid>7c69ee13-7cc9-482d-bbd7-491aafa4d625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/div/div/div/ul/li/div/a/span[2]</value>
+      <webElementGuid>f054c177-917c-4245-a79c-2beedb60d284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Favorites' or . = 'Favorites')]</value>
+      <webElementGuid>241f1815-fb66-4018-91f6-8d28e7355c70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

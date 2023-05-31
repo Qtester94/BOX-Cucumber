@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Canvas</name>
+   <tag></tag>
+   <elementGuidId>1d21f116-5ee0-436f-a449-426313303d19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2.dXGbkW.bdl-CollapsibleSidebar-menuItemLabel.overflow-action</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[4]/div/a/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>61633b11-5307-4134-8dbc-a7eed1a3dad4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel overflow-action</value>
+      <webElementGuid>ad493f7f-7040-4348-960a-ba19dedf6823</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Canvas</value>
+      <webElementGuid>26c80c92-2311-4945-9681-a93933a4289a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;in-app-messenger-provider&quot;]/span[@class=&quot;hotkey-layer&quot;]/div[@class=&quot;end-user has-header has-left-nav has-enhanced-styles has-no-page-content-level-left-padding has-no-page-content-level-right-padding has-sidebar&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-wrapper&quot;]/nav[@class=&quot;CollapsibleSidebar__StyledNav-sc-4t6rz4-0 dljPmD is-expanded bdl-CollapsibleSidebar LeftNav&quot;]/div[@class=&quot;CollapsibleSidebarNav__StyledScrollContainer-csqupn-1 lYUBv ScrollbarsCustom scroll-shadow-container&quot;]/div[@class=&quot;ScrollbarsCustom-Wrapper&quot;]/div[@class=&quot;ScrollbarsCustom-Scroller&quot;]/div[@class=&quot;ScrollbarsCustom-Content&quot;]/div[@class=&quot;bdl-CollapsibleSidebar-nav&quot;]/ul[1]/li[4]/div[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItem-sc-1fmdq8m-0 kStwWu bdl-CollapsibleSidebar-menuItem bdl-CollapsibleSidebar-menuItem--withContent&quot;]/a[@class=&quot;CollapsibleSidebarMenuItem__StyledLink-sc-1fmdq8m-3 jWudE bdl-CollapsibleSidebar-menuItemLink show-overflowAction&quot;]/span[@class=&quot;CollapsibleSidebarMenuItem__StyledMenuItemLabel-sc-1fmdq8m-2 dXGbkW bdl-CollapsibleSidebar-menuItemLabel overflow-action&quot;]</value>
+      <webElementGuid>725a237c-88c8-43f8-9abe-59391da5997c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[5]/span/div/div/nav/div[2]/div/div/div/div/ul/li[4]/div/a/span[2]</value>
+      <webElementGuid>6bee2228-f86d-4625-ba11-a2b86cdc38c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Synced'])[1]/following::span[2]</value>
+      <webElementGuid>cca304dc-3af5-4c47-b4f7-338f47ba7c56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recents'])[1]/following::span[4]</value>
+      <webElementGuid>78578cfc-5066-4b16-b9e4-23ff59326502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/preceding::span[1]</value>
+      <webElementGuid>860932d1-5aaa-43ed-863a-aa618a3bec74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/preceding::span[6]</value>
+      <webElementGuid>2d5c5ea0-ae4b-4f1f-ae8d-b1e18d76bd07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Canvas']/parent::*</value>
+      <webElementGuid>0d2de609-554d-4c4d-996f-44bb5fdb6dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/a/span[2]</value>
+      <webElementGuid>fe22f569-e102-47aa-ac3d-80c4e68dd54b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Canvas' or . = 'Canvas')]</value>
+      <webElementGuid>d1013796-7a69-46b3-8cf1-f21e21a3defc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

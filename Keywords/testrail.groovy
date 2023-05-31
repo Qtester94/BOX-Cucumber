@@ -53,54 +53,54 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class testrail {
-	
-	 //Add Test Run and gets the ID of it
+
+	//Add Test Run and gets the ID of it
 	@Keyword
 	def addTestRun() {
-		
+
 		def response = WS.sendRequest(findTestObject('API/addRun'))
-		
+
 		def slurper = new JsonSlurper()
-		
+
 		def result = slurper.parseText(response.getResponseBodyContent())
-		
+
 		def runID = result.id
-		
+
 		GlobalVariable.G_testrail_run_id = runID
-		
+
 		println(GlobalVariable.G_testrail_run_id)
-		
+
 	}
-	
-	
+
+
 	//Add Test Cases to Test run
 	@Keyword
 	def addTestsToRun() {
-		
+
 		int length = GlobalVariable.G_run_testrail_tc_id.size()
-		
+
 		for (int i = 0; i < length; i++) {
 			println(GlobalVariable.G_run_testrail_tc_id[i])
-		
+
 			WS.sendRequest(findTestObject('API/addTestToTestRun', [('runID') : GlobalVariable.G_testrail_run_id, ('tcID') : GlobalVariable.G_run_testrail_tc_id
-						, ('url') : (('/api/v2/update_run/' + GlobalVariable.G_testrail_run_id) + '/') + (GlobalVariable.G_run_testrail_tc_id[
-						i])]))
+				, ('url') : (('/api/v2/update_run/' + GlobalVariable.G_testrail_run_id) + '/') + (GlobalVariable.G_run_testrail_tc_id[
+					i])]))
 		}
-		
-		
+
+
 	}
-	
-	
+
+
 	//Add result to tests on testrail
 	@Keyword
 	def addResultsToTests() {
 		int length = GlobalVariable.G_run_testrail_tc_id.size()
 		for (int i = 0; i < length; i++) {
 			WS.sendRequest(findTestObject('API/addResultForCase', [('runID') : GlobalVariable.G_testrail_run_id, ('tcID') : GlobalVariable.G_run_testrail_tc_id
-						, ('tcStatus') : GlobalVariable.G_run_testrail_tc_status[i], ('url') : (('/api/v2/add_result_for_case/' +
-						GlobalVariable.G_testrail_run_id) + '/') + (GlobalVariable.G_run_testrail_tc_id[i])]))
+				, ('tcStatus') : GlobalVariable.G_run_testrail_tc_status[i], ('url') : (('/api/v2/add_result_for_case/' +
+				GlobalVariable.G_testrail_run_id) + '/') + (GlobalVariable.G_run_testrail_tc_id[i])]))
 		}
 	}
-	
-	
+
+
 }

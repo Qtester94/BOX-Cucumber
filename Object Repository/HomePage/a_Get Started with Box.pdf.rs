@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Get Started with Box.pdf</name>
+   <tag></tag>
+   <elementGuidId>ee4e2511-c814-4aad-96f9-5ed51e0f202f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div[5]/span/div/div[2]/main/div/div/div[3]/div/div[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>094b2ef5-9240-4778-ab4e-bd83fafcb5e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-resin-target</name>
+      <type>Main</type>
+      <value>openfile</value>
+      <webElementGuid>fb19bd04-9259-4ffb-be62-50ba0d83620d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-link item-link </value>
+      <webElementGuid>de9179c1-0f8f-40fe-b0e1-e0251756f68f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/file/1215224276018</value>
+      <webElementGuid>1960ef7c-1b30-46b1-9f0f-ed2aa5ad2e91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Get Started with Box.pdf</value>
+      <webElementGuid>0ea3aa07-fbfd-4935-96de-a58b76e0cbaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contextmenutarget422&quot;)/div[@class=&quot;details-cell&quot;]/div[@class=&quot;item-list-name&quot;]/div[@class=&quot;item-name-holder&quot;]/div[@class=&quot;name-row&quot;]/div[@class=&quot;item-name&quot;]/span[@class=&quot;bdl-targeted-click-through&quot;]/a[@class=&quot;item-link item-link&quot;]</value>
+      <webElementGuid>5268138b-6b65-4702-b85f-18f138e4161e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contextmenutarget422']/div[2]/div/div/div/div/span/a</value>
+      <webElementGuid>46d9ad36-e385-4fa4-be70-7e946a103f08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relevance'])[2]/following::a[1]</value>
+      <webElementGuid>44898a72-0a02-422e-b562-bfa90887d5ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[2]/following::a[1]</value>
+      <webElementGuid>08d590ed-7c4e-4a83-b771-e9d1cb797e7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Files'])[2]/preceding::a[1]</value>
+      <webElementGuid>a8568602-1a33-444c-994d-37b90c4e5326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Started with Box.pdf']/parent::*</value>
+      <webElementGuid>9d0322f8-4d2d-4d04-b016-b52c4f3b02fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/file/1215224276018')]</value>
+      <webElementGuid>80f01527-81f2-4bbb-bf85-222ba2faf8db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/span/a</value>
+      <webElementGuid>022140c8-aff3-4144-a988-f368408667b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/file/1215224276018' and (text() = 'Get Started with Box.pdf' or . = 'Get Started with Box.pdf')]</value>
+      <webElementGuid>fea06f81-56dc-466b-b5db-b4c1411012ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
